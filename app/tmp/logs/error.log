@@ -495,3 +495,12 @@
 #1 /Applications/MAMP/htdocs/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
 #2 /Applications/MAMP/htdocs/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2013-04-05 21:45:00 Error: [MissingControllerException] Controller class HomeController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-05 21:45:02 Error: [MissingControllerException] Controller class HomeController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-05 21:45:04 Error: [MissingControllerException] Controller class HomeController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
