@@ -18,71 +18,33 @@
 
 $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework');
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-	<?php echo $this->Html->charset(); ?>	
-	<title>
-<link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
-		<?php echo $cakeDescription ?>:
-		<?php echo $title_for_layout; ?>
-	</title>
-	<?php echo $scripts_for_layout; ?>
-	<?php
-		echo $this->Html->meta('icon');
-
-		echo $this->Html->css('generic');
-		echo $this->Html->css('tab');
-
-		echo $this->fetch('meta');
-		echo $this->fetch('css');
-		echo $this->fetch('script');
-		echo $this->Html->script('jq');
-		echo $this->Html->script('jqui');
-		echo $this->Html->script('tab');
-	?>
-</head>
-<body>
-<div id="container">
-	<div id="header">
-		<div id="navigation">
-			<div id="navbar">
-				 <div class="tabs">
-     			 	<ul>
-        				<li id="tabHeader_1">Home</li>
-    				    <li id="tabHeader_2">About Me</li>
-  	   			        <li id="tabHeader_3">Profile</li>
-  					    <li id="tabHeader_4">Videos</li>
-    				</ul>
-  			  </div>
-			</div>
-		</div>
+<!DOCTYPE html>
+<html>
+  <head>
+ 
+    <title>Bootstrap 101 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+  	
+	<div class="tabbable"> <!-- Only required for left/right tabs -->
+	  <ul class="nav nav-tabs">
+	    <li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+	    <li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+	  </ul>
+	  <div class="tab-content">
+	    <div class="tab-pane active" id="tab1">
+	      <p>I'm in Section 1.</p>
+	    </div>
+	    <div class="tab-pane" id="tab2">
+	      <p>Howdy, I'm in Section 2.</p>
+	    </div>
+	  </div>
 	</div>
 
-  <div id="tabContainer">
-
-    <div class="tabscontent">
-      <div class="tabpage" id="tabpage_1">
-        <h2>Page 1</h2>
-        <p>Pellentesque habitant morbi tristique senectus...</p>
-      </div>
-      <div class="tabpage" id="tabpage_2">
-        <h2>Page 2</h2>
-        <p>Pellentesque habitant morbi tristique senectus...</p>
-      </div>
-      <div class="tabpage" id="tabpage_3">
-        <h2>Page 3</h2>
-        <p>Pellentesque habitant morbi tristique senectus...</p>
-      </div>
-      <div class="tabpage" id="tabpage_4">
-        <h2>Page 4</h2>
-        <p>Pellentesque habitant morbi tristique senectus...</p>
-      </div>
-    </div>
-    </div>
-    <div id="footer">
- 	 </div>
-  </div>
-	<?php echo $this->element('sql_dump'); ?>
-</body>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
