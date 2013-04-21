@@ -4,7 +4,5 @@ class VideosController extends AppController {
     public function index() {
         $this->set('videos', $this->Video->find('all'));
     }
-
-
 }
 	

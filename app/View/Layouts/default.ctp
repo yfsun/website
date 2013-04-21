@@ -15,44 +15,82 @@
 <!--style>
 body 
 {
+	
 	background-image: url('/img/dark_grey.png');
 }
 </style-->
 
+<style type="text/css">
+
+body
+{
+	background-image: url('/img/binding_light.png');
+}
+
+
+/* Header CSS*/
+#header{ top: 0; margin-left: auto; position:fixed; width:100%; text-align:center; background-color:#005580; z-index: 100;}
+#header_container {height:180px; margin-left:auto; margin-right:auto; position:relative; width: 500px ; top:0;}
+
+
+/* Body CSS*/
+#body_container
+{ position:relative; left: ; right: 0; bottom: 0; top: 300px; margin-left:auto; margin-right:auto; width: 700px}
+ 
+#potrait
+{
+	width:100px;
+	height:80px;
+	margin-bottom:40px;
+}
+
+</style>	
 </head>
 <body>
 	<!-- Header -->
 	<div id="header">
-			<div class="navbar">
-			  <div class="navbar-inner">
-  			<div class="container">
-
-				<a class="brand" href="#">YiFei Sun</a>
-				<ul class="nav">
-				<?php
-					echo $this->Tab->isActive("Homes");
-					echo $this->Html->link('Home', array('controller'=>'Homes', 'action'=>'index'));
-					echo "</li>";
-				?>
-				<?php
-					echo $this->Tab->isActive("Posts");
-					echo $this->Html->link('Blogs', array('controller'=>'Posts', 'action'=>'index'));
-					echo "</li>";
-				?>
-				<?php
-					echo $this->Tab->isActive("Videos");
-					echo $this->Html->link('Video', array('controller'=>'Videos', 'action'=>'index'));
-					echo "</li>";
-				?>
-				</ul>
-			  </div>
+		
+		<div id="header_container">
+			<div id="potrait">
+			<?php echo $this->Html->image('potrait	.png', array('alt' => 'CakePHP'));  ?>
 			</div>
-	    </div>
-		    </div>
-
-	<?php echo $content_for_layout ?>
-	<?php echo $this->params['controller'] ?>
-
+			<div class="navbar">
+				<div class="navbar-inner">
+					<div class="container">	
+						<a class="brand" href="#">YiFei Sun</a>
+						<ul class="nav">
+							<?php
+							// Home Tab
+							echo $this->Tab->isActive("Homes");
+							echo $this->Html->link('Home', array('controller'=>'Homes', 'action'=>'index'));
+							echo "</li>";
+							
+							// Blogs Tab
+							echo $this->Tab->isActive("Posts");
+							echo $this->Html->link('Blogs', array('controller'=>'Posts', 'action'=>'index'));
+							echo "</li>";
+							
+							// Video Tab
+							echo $this->Tab->isActive("Videos");
+							echo $this->Html->link('Video', array('controller'=>'Videos', 'action'=>'index'));
+							echo "</li>";
+							
+							// Projects Tab
+							echo $this->Tab->isActive("Projects");
+							echo $this->Html->link('Project', array('controller'=>'Projects', 'action'=>'index'));
+							echo "</li>";
+							?>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="body_container">
+		<?php echo $content_for_layout ?>
+		<?php echo $this->params['controller'] ?>
+	</div>
 
 	<!-- Footer -->	
 	<div id="footer">

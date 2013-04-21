@@ -1,5 +1,3 @@
-<!-- File: /app/View/Posts/index.ctp -->
-
 <h1>Blog posts</h1>
 <div class="row-fluid">
 	<div class="span6">
@@ -13,7 +11,8 @@
 		    <?php foreach ($videos as $video): ?>
 	    <tr>
 	        <td>
-	            <?php echo $this->Youtube->video($video['Video']['VideoLink']); ?>
+	            <?php
+	            echo $this->Youtube->video($video['Video']['link']); ?>
 	        </td>
 	    </tr>
 	    <?php endforeach; ?>
@@ -28,5 +27,5 @@
 
 </div>
 
-
+ 
 
