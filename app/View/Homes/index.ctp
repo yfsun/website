@@ -6,7 +6,7 @@
 I am currently a 4<sup>th</sup> year Computer Science Student at University of Waterloo. I am currently learning webdevlopement. This website will be the start of my learning experience.  
 <div class ="header">
 	<h3>
-		My work experiences...77
+		My work experiences...
 	</h3>
 </div>
 <div class="layer1">

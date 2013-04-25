@@ -29,21 +29,32 @@ body
 	background-image: url('/img/binding_light.png');
 }
 
-
 /* Header CSS*/
 #header{ top: 0; margin-left: auto; position:fixed; width:100%; text-align:center; background-color:#005580; z-index: 100;}
 #header_container {height:180px; margin-left:auto; margin-right:auto; position:relative; width: 500px ; top:0;}
 
+h3{
+	border-bottom: 1px solid;
+}
 
 /* Body CSS*/
 #body_container
-{ position:relative; left: ; right: 0; bottom: 0; top: 200px; margin-left:auto; margin-right:auto; width: 700px; border-left:1px solid; border-right:1px solid; border-radius:10px; padding-top: 30px; padding-bottom: 30px ;padding-left: 10px;}
+{ position:relative; left: ; right: 0; bottom: 0; top: 200px; margin-left:auto; margin-right:auto; width: 700px; border-left:2px solid; border-right:2px solid; padding-top: 30px; padding-bottom: 30px ;padding-left: 10px;}
  
 #potrait
 {
 	width:100px;
 	height:80px;
 	margin-bottom:40px;
+}
+
+.divider{
+	border-bottom: 3px solid;
+	width: 80%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
 }
 
 </style>	

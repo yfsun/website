@@ -3703,3 +3703,831 @@
 2013-04-25 05:17:28 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
 #0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2013-04-25 15:37:39 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 15:37:40 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 15:37:42 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Model\Model.php(3180): Model->setSource('posts')
+#1 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\Controller\PostsController.php(6): Model->find('all')
+#3 [internal function]: PostsController->index()
+#4 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-04-25 15:37:42 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 15:37:42 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 15:37:43 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 15:37:44 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 15:37:49 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 15:37:49 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 15:37:50 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 15:37:50 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 15:38:09 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 15:38:10 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 15:41:54 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 15:41:54 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 15:42:00 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Model\Model.php(3180): Model->setSource('posts')
+#1 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\Controller\PostsController.php(6): Model->find('all')
+#3 [internal function]: PostsController->index()
+#4 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-04-25 15:42:00 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 15:42:01 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 15:42:15 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 15:42:16 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 15:42:18 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 15:42:18 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 15:43:59 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Model\Model.php(3180): Model->setSource('posts')
+#1 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\Controller\PostsController.php(6): Model->find('all')
+#3 [internal function]: PostsController->index()
+#4 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-04-25 15:43:59 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 15:44:00 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 15:44:00 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Model\Model.php(3180): Model->setSource('posts')
+#1 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\Controller\PostsController.php(6): Model->find('all')
+#3 [internal function]: PostsController->index()
+#4 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-04-25 15:44:00 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 15:44:00 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 15:45:20 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 15:45:21 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 15:45:42 Error: [MissingActionException] Action PostsController::js() could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-25 15:45:43 Error: [MissingActionException] Action PostsController::favicon.ico() could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-25 15:48:43 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 15:48:44 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 15:48:52 Error: [MissingActionException] Action PostsController::js() could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-25 15:48:53 Error: [MissingActionException] Action PostsController::favicon.ico() could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-25 15:49:33 Error: [MissingControllerException] Controller class AddController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 15:49:33 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 15:49:34 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 15:49:42 Error: [MissingActionException] Action PostsController::js() could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-25 15:49:43 Error: [MissingActionException] Action PostsController::favicon.ico() could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-25 16:06:47 Error: [MissingActionException] Action PostsController::js() could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-25 16:06:47 Error: [MissingActionException] Action PostsController::favicon.ico() could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-25 16:06:49 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 16:06:49 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 16:06:51 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 16:06:51 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 16:06:54 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 16:06:54 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 16:06:57 Error: [MissingActionException] Action ProjectsController::add() could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ProjectsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-25 16:06:58 Error: [MissingActionException] Action ProjectsController::js() could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ProjectsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-25 16:06:58 Error: [MissingActionException] Action ProjectsController::favicon.ico() could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ProjectsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-25 19:38:57 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 19:38:57 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 19:38:58 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 19:38:58 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 19:39:27 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 19:39:28 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 19:39:29 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 19:39:29 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 19:40:51 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 19:40:51 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 19:40:52 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 19:40:52 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 19:41:44 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 19:41:44 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 19:46:11 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 19:46:11 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 19:46:52 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 19:46:53 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 19:48:37 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 19:48:38 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 19:48:38 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 19:48:38 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 19:53:00 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 19:53:00 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 19:57:08 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 19:57:08 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:03:03 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:03:04 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:03:23 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:03:23 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:03:36 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:03:37 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:03:50 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:03:50 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:03:51 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:03:51 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:03:52 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:03:52 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:03:53 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:03:53 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:05:32 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:05:33 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:07:15 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:07:15 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:07:17 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:07:17 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:07:33 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:07:33 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:09:34 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:09:35 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:10:53 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:10:53 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:11:02 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:11:02 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:11:16 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:11:16 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:11:49 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:11:49 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:16:37 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:16:38 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:50:01 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:50:01 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:50:02 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:50:03 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:50:35 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:50:36 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:51:02 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:51:03 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:57:43 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:57:43 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:59:05 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\View\Projects\index.ctp, line 3]
+Trace:
+include - APP\View\Projects\index.ctp, line 3
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2013-04-25 20:59:05 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:59:05 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:59:06 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\View\Projects\index.ctp, line 3]
+Trace:
+include - APP\View\Projects\index.ctp, line 3
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2013-04-25 20:59:06 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:59:06 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:59:06 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:59:07 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:59:07 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\View\Projects\index.ctp, line 3]
+Trace:
+include - APP\View\Projects\index.ctp, line 3
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2013-04-25 20:59:08 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:59:08 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:59:09 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\View\Projects\index.ctp, line 3]
+Trace:
+include - APP\View\Projects\index.ctp, line 3
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2013-04-25 20:59:10 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:59:10 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:59:10 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\View\Projects\index.ctp, line 3]
+Trace:
+include - APP\View\Projects\index.ctp, line 3
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2013-04-25 20:59:10 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:59:10 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:59:53 Error: [MissingTableException] Table projects for model Project was not found in datasource default.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Model\Model.php(3180): Model->setSource('projects')
+#1 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\Controller\ProjectsController.php(5): Model->find('all')
+#3 [internal function]: ProjectsController->index()
+#4 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ProjectsController), Array)
+#5 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ProjectsController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-04-25 20:59:53 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:59:53 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:59:55 Error: [MissingTableException] Table projects for model Project was not found in datasource default.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Model\Model.php(3180): Model->setSource('projects')
+#1 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\Controller\ProjectsController.php(5): Model->find('all')
+#3 [internal function]: ProjectsController->index()
+#4 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ProjectsController), Array)
+#5 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ProjectsController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-04-25 20:59:55 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 20:59:55 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:00:03 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:00:03 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:00:11 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:00:12 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:00:15 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:00:15 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:01:09 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:01:09 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:02:27 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:02:27 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:02:30 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:03:17 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:03:41 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:03:41 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:03:53 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:03:53 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:04:00 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:04:00 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:04:03 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:04:03 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:04:03 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:04:03 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:04:07 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:04:07 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:04:08 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:04:08 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:04:17 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:04:17 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:04:17 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:04:17 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:04:19 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:04:19 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:04:20 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:04:20 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:04:24 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:04:24 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:05:17 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:05:17 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:05:19 Error: [MissingActionException] Action PostsController::add() could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-25 21:05:19 Error: [MissingActionException] Action PostsController::js() could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-25 21:05:19 Error: [MissingActionException] Action PostsController::favicon.ico() could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-25 21:05:24 Error: [MissingActionException] Action PostsController::view() could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-25 21:05:24 Error: [MissingActionException] Action PostsController::js() could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-25 21:05:24 Error: [MissingActionException] Action PostsController::favicon.ico() could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-25 21:05:27 Error: [MissingActionException] Action PostsController::js() could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-25 21:05:28 Error: [MissingActionException] Action PostsController::favicon.ico() could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-25 21:06:24 Error: [MissingActionException] Action PostsController::js() could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-25 21:06:24 Error: [MissingActionException] Action PostsController::favicon.ico() could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-25 21:06:41 Error: [MissingActionException] Action PostsController::js() could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-25 21:06:41 Error: [MissingActionException] Action PostsController::favicon.ico() could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-25 21:08:39 Error: [MissingActionException] Action PostsController::js() could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-25 21:08:39 Error: [MissingActionException] Action PostsController::favicon.ico() could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-25 21:09:01 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:09:01 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:09:43 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:09:43 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:09:46 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:09:46 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:09:52 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:09:53 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:09:53 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:09:53 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:09:54 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:09:54 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:09:54 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:09:54 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:10:05 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:10:05 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:10:38 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:10:38 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:10:51 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:10:51 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:10:58 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:10:58 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:11:03 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:11:03 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:11:03 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:11:04 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:11:05 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:11:05 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:11:08 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:11:08 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 21:11:41 Error: [MissingActionException] Action VideosController::add() could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(VideosController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-25 21:11:41 Error: [MissingActionException] Action VideosController::js() could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(VideosController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-25 21:11:41 Error: [MissingActionException] Action VideosController::favicon.ico() could not be found.
+#0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(VideosController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

@@ -5,8 +5,9 @@ class PostsController extends AppController {
     public function index() {
         $this->set('posts', $this->Post->find('all'));
     }
-
+/*
   public function view($id = null) {
+  	
         $this->Post->id = $id;
         $this->set('post', $this->Post->read());
     }
@@ -44,5 +45,7 @@ public function delete($id) {
         $this->redirect(array('action' => 'index'));
     }
 }
+ 
+ */
 
 }

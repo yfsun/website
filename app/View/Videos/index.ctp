@@ -16,14 +16,3 @@
 <?php endforeach; ?>
 <?php unset($video); ?>
 
-
-<style>
-.divider{
-	border-bottom: 3px solid;
-	width: 80%;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top: 20px;
-	margin-bottom: 10px;
-}
-</style>
