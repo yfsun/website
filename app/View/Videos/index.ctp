@@ -1,31 +1,29 @@
-<h1>Blog posts</h1>
-<div class="row-fluid">
-	<div class="span6">
-	
-	  	<table class="table table-striped">
-	    <tr>
-	        <th>Title</th>
-	        <th>Created</th>
-	    </tr>
-	    <tr>
-		    <?php foreach ($videos as $video): ?>
-	    <tr>
-	        <td>
-	            <?php
-	            echo $this->Youtube->video($video['Video']['link']); ?>
-	        </td>
-	    </tr>
-	    <?php endforeach; ?>
-	    <?php unset($video); ?>
-	    </tr>
-	
-		</table>
-	</div>
-	<div class="span6" id = "a">
-
-	</div>
+<h3>Some cool videos...</h3>
+<?php foreach ($videos as $video): ?>
+<div class="media">
+  <a class="pull-left" href="#">
+  <?php echo $this->Youtube->video($video['Video']['link'],array(), array('width' => '312', 'height' => '184')); ?>
+  </a>
+  <div class="media-body">
+    <h4 class="media-heading"><?php echo $video['Video']['name']; ?></h4>
+    <?php echo $video['Video']['description']; ?>
+  </div>
 
 </div>
+<div class="divider">
+</div>
 
- 
+<?php endforeach; ?>
+<?php unset($video); ?>
 
+
+<style>
+.divider{
+	border-bottom: 3px solid;
+	width: 80%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+</style>

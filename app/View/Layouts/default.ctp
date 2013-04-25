@@ -12,6 +12,8 @@
 	echo $this->Html->css('bootstrap.min.css');
 ?>
 
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <!--style>
 body 
 {
@@ -35,7 +37,7 @@ body
 
 /* Body CSS*/
 #body_container
-{ position:relative; left: ; right: 0; bottom: 0; top: 300px; margin-left:auto; margin-right:auto; width: 700px}
+{ position:relative; left: ; right: 0; bottom: 0; top: 200px; margin-left:auto; margin-right:auto; width: 700px; border-left:1px solid; border-right:1px solid; border-radius:10px; padding-top: 30px; padding-bottom: 30px ;padding-left: 10px;}
  
 #potrait
 {
@@ -52,7 +54,7 @@ body
 		
 		<div id="header_container">
 			<div id="potrait">
-			<?php echo $this->Html->image('potrait	.png', array('alt' => 'CakePHP'));  ?>
+			<?php echo $this->Html->image('potrait	.png', array('alt' => ''));  ?>
 			</div>
 			<div class="navbar">
 				<div class="navbar-inner">
@@ -89,7 +91,6 @@ body
 	
 	<div id="body_container">
 		<?php echo $content_for_layout ?>
-		<?php echo $this->params['controller'] ?>
 	</div>
 
 	<!-- Footer -->	
@@ -97,7 +98,5 @@ body
 		
 	</div>
 
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
