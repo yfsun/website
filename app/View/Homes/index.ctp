@@ -1,15 +1,36 @@
+<canvas id="screen" >
+Sorry your browser does not support canvas
+</canvas>
 <div class ="header">
 	<h3>
 		About myself...
 	</h3>
 </div>
-I am currently a 4<sup>th</sup> year Computer Science Student at University of Waterloo. I am currently learning webdevlopement. This website will be the start of my learning experience.  
+I am currently a 4<sup>th</sup> year Computer Science Student at University of Waterloo. I am currently learning web devlopement. This website will be the start of my learning experience.  
+<div class ="header">
+	<h3>
+		My skills
+	</h3>
+</div>
+<ul>
+	<li><b>Programming Languages:</b> C++, C, Java, Scheme, Turing</li>
+	<li><b>Web Languages:</b> PHP, Javascript/Coffee, CSS, HTML</li>
+	<li><b>Scripting Languages:</b> Perl, AWK, Shell, Batch</li>
+	<li><b>Web Framework:</b> Cake </li>
+	<li><b>Revision Control:</b> Git, SVN, CVS</li>
+	<li><b>Database:</b> SQL, Stored Procedure, UDF</li>
+	<li><b>Operating Systems:</b> Windows, Linux</li>
+</ul>
+
+
+
 <div class ="header">
 	<h3>
 		My work experiences...
 	</h3>
 </div>
-<div class="layer1">
+
+<!--div class="layer1">
 	<div class="heading">
 		<div id="parent">
 		    <div class="right">
@@ -61,7 +82,7 @@ I am currently a 4<sup>th</sup> year Computer Science Student at University of W
 	
 	<div class="content">
 		<ul>
-			<li>DTroubleshot computer software/hardware problems</li>
+			<li>Troubleshot computer software/hardware problems</li>
 			<li>Maintained company server</li>
 			<li>Provided general support for all computer related issues</li>
 			<li>Created tutorials for staff training</li>
@@ -69,7 +90,11 @@ I am currently a 4<sup>th</sup> year Computer Science Student at University of W
 	</div>
 	
 	
-</div>
+</div-->
+
+<iframe src='http://embed.verite.co/timeline/?source=0AkoIytsv6wWIdC1zeHpqUTVaTHE0SnV6T0MzclpDX1E&font=Bevan-PotanoSans&maptype=toner&lang=en&height=650' width='100%' height='650' frameborder='0' scrolling='no'>
+	
+</iframe>
 
 <script type="text/javascript">
 jQuery(document).ready(function() {
@@ -92,10 +117,19 @@ jQuery(document).ready(function() {
 		});
 	});
 });
-</script>
+  
+var webroot = "<?php echo $this->webroot; ?>";
 
+</script>
+<?php
+	echo $this->Html->script('timeline.js') 
+?>
 
 <style>
+#screen{
+	width: 1024px;
+	height: 200px;
+}
 .layer1 {
 margin: 0;
 padding: 0;
@@ -147,6 +181,12 @@ padding: 0;
     overflow: hidden;
     width: 90%;
 }
-
-
 </style>
+
+
+        
+        
+
+
+
+
