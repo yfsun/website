@@ -9,15 +9,17 @@
 	        <th>Title</th>
 	        <th>Created</th>
 	    </tr>
-	    <?php foreach ($posts as $post): ?>
+	    <tr>
+		    <?php foreach ($videos as $video): ?>
 	    <tr>
 	        <td>
-	            <?php echo $this->Html->link($post['Post']['title'],array('controller' => 'posts', 'action' => 'view', $post['Post']['id'])); ?>
+	            <?php echo $this->Youtube->video($video['Video']['VideoLink']); ?>
 	        </td>
-	        <td>Date: <?php echo $post['Post']['created']; ?></td>
 	    </tr>
 	    <?php endforeach; ?>
-	    <?php unset($post); ?>
+	    <?php unset($video); ?>
+	    </tr>
+	
 		</table>
 	</div>
 	<div class="span6" id = "a">

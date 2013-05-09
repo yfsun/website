@@ -45,6 +45,14 @@ class PagesController extends AppController {
  */
 	public $uses = array();
 
+/*
+ * 
+ *  Helpers
+ * 
+ */
+ 
+ public $helpers = array("isActive");
+ 
 /**
  * Displays a view
  *
