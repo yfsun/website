@@ -1,0 +1,77 @@
+2013-04-25 19:38:58 Debug: Notice (8): Undefined index: id in [C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\View\Posts\index.ctp, line 15]
+Trace:
+include - APP\View\Posts\index.ctp, line 15
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2013-04-25 19:39:29 Debug: Notice (8): Undefined index: id in [C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\View\Posts\index.ctp, line 15]
+Trace:
+include - APP\View\Posts\index.ctp, line 15
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2013-04-25 20:59:05 Debug: Notice (8): Undefined variable: projects in [C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\View\Projects\index.ctp, line 3]
+Trace:
+include - APP\View\Projects\index.ctp, line 3
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2013-04-25 20:59:06 Debug: Notice (8): Undefined variable: projects in [C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\View\Projects\index.ctp, line 3]
+Trace:
+include - APP\View\Projects\index.ctp, line 3
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2013-04-25 20:59:07 Debug: Notice (8): Undefined variable: projects in [C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\View\Projects\index.ctp, line 3]
+Trace:
+include - APP\View\Projects\index.ctp, line 3
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2013-04-25 20:59:09 Debug: Notice (8): Undefined variable: projects in [C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\View\Projects\index.ctp, line 3]
+Trace:
+include - APP\View\Projects\index.ctp, line 3
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
+2013-04-25 20:59:10 Debug: Notice (8): Undefined variable: projects in [C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\View\Projects\index.ctp, line 3]
+Trace:
+include - APP\View\Projects\index.ctp, line 3
+View::_evaluate() - CORE\Cake\View\View.php, line 920
+View::_render() - CORE\Cake\View\View.php, line 883
+View::render() - CORE\Cake\View\View.php, line 475
+Controller::render() - CORE\Cake\Controller\Controller.php, line 957
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 92
+
