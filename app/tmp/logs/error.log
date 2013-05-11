@@ -495,6 +495,167 @@
 #1 /Applications/MAMP/htdocs/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
 #2 /Applications/MAMP/htdocs/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+<<<<<<< HEAD
+2013-04-18 16:38:55 Error: [MissingConnectionException] Database connection "SQLSTATE[28000] [1045] Access denied for user 'yifeisun'@'localhost' (using password: YES)" is missing, or could not be created.
+#0 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(3158): ConnectionManager::getDataSource('default')
+#3 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(3180): Model->setSource('posts')
+#5 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#6 /Users/sunyifei23/Documents/Github/website/app/Controller/PostsController.php(6): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 /Users/sunyifei23/Documents/Github/website/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 /Users/sunyifei23/Documents/Github/website/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/sunyifei23/Documents/Github/website/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-04-18 16:38:55 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-18 16:38:55 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-18 16:38:57 Error: [MissingConnectionException] Database connection "SQLSTATE[28000] [1045] Access denied for user 'yifeisun'@'localhost' (using password: YES)" is missing, or could not be created.
+#0 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(3158): ConnectionManager::getDataSource('default')
+#3 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(3180): Model->setSource('videos')
+#5 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#6 /Users/sunyifei23/Documents/Github/website/app/Controller/VideosController.php(5): Model->find('all')
+#7 [internal function]: VideosController->index()
+#8 /Users/sunyifei23/Documents/Github/website/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(VideosController), Array)
+#9 /Users/sunyifei23/Documents/Github/website/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/sunyifei23/Documents/Github/website/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(VideosController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-04-18 16:38:57 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-18 16:38:57 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-18 16:38:58 Error: [MissingConnectionException] Database connection "SQLSTATE[28000] [1045] Access denied for user 'yifeisun'@'localhost' (using password: YES)" is missing, or could not be created.
+#0 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(3158): ConnectionManager::getDataSource('default')
+#3 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(3180): Model->setSource('videos')
+#5 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#6 /Users/sunyifei23/Documents/Github/website/app/Controller/VideosController.php(5): Model->find('all')
+#7 [internal function]: VideosController->index()
+#8 /Users/sunyifei23/Documents/Github/website/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(VideosController), Array)
+#9 /Users/sunyifei23/Documents/Github/website/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/sunyifei23/Documents/Github/website/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(VideosController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-04-18 16:38:59 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-18 16:38:59 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-18 16:38:59 Error: [MissingConnectionException] Database connection "SQLSTATE[28000] [1045] Access denied for user 'yifeisun'@'localhost' (using password: YES)" is missing, or could not be created.
+#0 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(3158): ConnectionManager::getDataSource('default')
+#3 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(3180): Model->setSource('videos')
+#5 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#6 /Users/sunyifei23/Documents/Github/website/app/Controller/VideosController.php(5): Model->find('all')
+#7 [internal function]: VideosController->index()
+#8 /Users/sunyifei23/Documents/Github/website/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(VideosController), Array)
+#9 /Users/sunyifei23/Documents/Github/website/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/sunyifei23/Documents/Github/website/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(VideosController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-04-18 16:38:59 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-18 16:38:59 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-18 16:38:59 Error: [MissingConnectionException] Database connection "SQLSTATE[28000] [1045] Access denied for user 'yifeisun'@'localhost' (using password: YES)" is missing, or could not be created.
+#0 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(3158): ConnectionManager::getDataSource('default')
+#3 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(3180): Model->setSource('videos')
+#5 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#6 /Users/sunyifei23/Documents/Github/website/app/Controller/VideosController.php(5): Model->find('all')
+#7 [internal function]: VideosController->index()
+#8 /Users/sunyifei23/Documents/Github/website/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(VideosController), Array)
+#9 /Users/sunyifei23/Documents/Github/website/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/sunyifei23/Documents/Github/website/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(VideosController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-04-18 16:38:59 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-18 16:38:59 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-18 16:40:37 Error: [MissingConnectionException] Database connection "SQLSTATE[42000] [1049] Unknown database 'web'" is missing, or could not be created.
+#0 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(3158): ConnectionManager::getDataSource('default')
+#3 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(3180): Model->setSource('posts')
+#5 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#6 /Users/sunyifei23/Documents/Github/website/app/Controller/PostsController.php(6): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 /Users/sunyifei23/Documents/Github/website/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 /Users/sunyifei23/Documents/Github/website/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/sunyifei23/Documents/Github/website/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-04-18 16:40:37 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-18 16:40:37 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-18 16:40:41 Error: [MissingConnectionException] Database connection "SQLSTATE[42000] [1049] Unknown database 'web'" is missing, or could not be created.
+#0 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(3158): ConnectionManager::getDataSource('default')
+#3 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(3180): Model->setSource('videos')
+#5 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#6 /Users/sunyifei23/Documents/Github/website/app/Controller/VideosController.php(5): Model->find('all')
+#7 [internal function]: VideosController->index()
+#8 /Users/sunyifei23/Documents/Github/website/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(VideosController), Array)
+#9 /Users/sunyifei23/Documents/Github/website/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/sunyifei23/Documents/Github/website/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(VideosController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-04-18 16:40:41 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-18 16:40:41 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-18 16:40:42 Error: [MissingConnectionException] Database connection "SQLSTATE[42000] [1049] Unknown database 'web'" is missing, or could not be created.
+#0 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(3158): ConnectionManager::getDataSource('default')
+#3 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(3180): Model->setSource('posts')
+#5 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#6 /Users/sunyifei23/Documents/Github/website/app/Controller/PostsController.php(6): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 /Users/sunyifei23/Documents/Github/website/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 /Users/sunyifei23/Documents/Github/website/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/sunyifei23/Documents/Github/website/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-04-18 16:40:42 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-18 16:40:42 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+=======
 2013-04-18 15:49:59 Error: [MissingControllerException] Controller class JsController could not be found.
 #0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
@@ -11100,4 +11261,387 @@ Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
 #1 {main}
 2013-05-03 18:13:35 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
 #0 C:\Users\Bill\Documents\Aptana Studio 3 Workspace\website\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+>>>>>>> 7f4431b1b5f931d6a20a97c4c94edc71536c26e7
+#1 {main}
+2013-05-09 16:00:34 Error: [MissingConnectionException] Database connection "SQLSTATE[42000] [1049] Unknown database 'web'" is missing, or could not be created.
+#0 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(3158): ConnectionManager::getDataSource('default')
+#3 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(3180): Model->setSource('posts')
+#5 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#6 /Users/sunyifei23/Documents/Github/website/app/Controller/PostsController.php(6): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 /Users/sunyifei23/Documents/Github/website/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 /Users/sunyifei23/Documents/Github/website/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/sunyifei23/Documents/Github/website/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-05-09 16:00:34 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 16:00:37 Error: [MissingConnectionException] Database connection "SQLSTATE[42000] [1049] Unknown database 'web'" is missing, or could not be created.
+#0 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(3158): ConnectionManager::getDataSource('default')
+#3 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(3180): Model->setSource('videos')
+#5 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#6 /Users/sunyifei23/Documents/Github/website/app/Controller/VideosController.php(6): Model->find('all')
+#7 [internal function]: VideosController->index()
+#8 /Users/sunyifei23/Documents/Github/website/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(VideosController), Array)
+#9 /Users/sunyifei23/Documents/Github/website/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/sunyifei23/Documents/Github/website/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(VideosController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-05-09 16:00:37 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 16:00:38 Error: [MissingConnectionException] Database connection "SQLSTATE[42000] [1049] Unknown database 'web'" is missing, or could not be created.
+#0 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(3158): ConnectionManager::getDataSource('default')
+#3 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(3180): Model->setSource('videos')
+#5 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#6 /Users/sunyifei23/Documents/Github/website/app/Controller/VideosController.php(6): Model->find('all')
+#7 [internal function]: VideosController->index()
+#8 /Users/sunyifei23/Documents/Github/website/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(VideosController), Array)
+#9 /Users/sunyifei23/Documents/Github/website/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/sunyifei23/Documents/Github/website/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(VideosController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-05-09 16:00:39 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 16:00:39 Error: [MissingConnectionException] Database connection "SQLSTATE[42000] [1049] Unknown database 'web'" is missing, or could not be created.
+#0 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(3158): ConnectionManager::getDataSource('default')
+#3 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(3180): Model->setSource('videos')
+#5 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#6 /Users/sunyifei23/Documents/Github/website/app/Controller/VideosController.php(6): Model->find('all')
+#7 [internal function]: VideosController->index()
+#8 /Users/sunyifei23/Documents/Github/website/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(VideosController), Array)
+#9 /Users/sunyifei23/Documents/Github/website/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/sunyifei23/Documents/Github/website/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(VideosController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-05-09 16:00:39 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 16:00:41 Error: [MissingConnectionException] Database connection "SQLSTATE[42000] [1049] Unknown database 'web'" is missing, or could not be created.
+#0 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(3158): ConnectionManager::getDataSource('default')
+#3 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(3180): Model->setSource('videos')
+#5 /Users/sunyifei23/Documents/Github/website/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#6 /Users/sunyifei23/Documents/Github/website/app/Controller/VideosController.php(6): Model->find('all')
+#7 [internal function]: VideosController->index()
+#8 /Users/sunyifei23/Documents/Github/website/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(VideosController), Array)
+#9 /Users/sunyifei23/Documents/Github/website/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/sunyifei23/Documents/Github/website/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(VideosController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-05-09 16:00:41 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 16:24:50 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 16:29:09 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 16:29:10 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 16:29:56 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 16:29:56 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 16:30:04 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 16:30:04 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 16:30:05 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 16:30:05 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 16:30:35 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 16:30:35 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 16:30:51 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 16:30:52 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 16:31:43 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 16:31:43 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 16:32:45 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 16:32:45 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 16:33:15 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 16:33:30 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 16:33:30 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 16:33:32 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 16:33:32 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 16:33:36 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 16:35:32 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 16:36:25 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 16:36:25 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 16:37:24 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 16:37:24 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 16:37:34 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 16:42:16 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 22:06:49 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 22:06:49 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 22:06:55 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 22:07:51 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 22:07:51 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 22:08:23 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 22:09:19 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 00:11:30 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 00:11:30 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 00:12:01 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 00:12:04 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 00:12:27 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 00:12:34 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 00:12:45 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 00:12:52 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 00:13:16 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 00:13:34 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 00:14:02 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 00:14:23 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 00:14:40 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 00:14:46 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 00:15:48 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 00:15:59 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 00:16:23 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 00:16:32 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 00:16:35 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 00:16:36 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 00:16:37 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 00:16:37 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 01:09:07 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 01:09:15 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 01:09:45 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 01:09:46 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 01:12:19 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 01:13:58 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 01:14:21 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 01:17:12 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 01:37:10 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 01:37:10 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 01:45:59 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 01:46:06 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 01:46:06 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 14:34:42 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 14:48:15 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 14:48:16 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 15:00:23 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 15:00:23 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 15:00:25 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 15:00:27 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 15:08:54 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 15:11:34 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 15:12:09 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 15:12:10 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 15:13:04 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 15:13:05 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 15:13:43 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 15:13:53 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 15:13:53 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 15:14:08 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 15:14:08 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 15:15:03 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 15:15:11 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 15:19:22 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 15:19:22 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 15:19:42 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 15:19:42 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 15:48:42 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 15:49:57 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-11 03:07:33 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/sunyifei23/Documents/Github/website/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}

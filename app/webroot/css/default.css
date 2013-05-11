@@ -1,0 +1,57 @@
+
+body
+{ background-image: url("<?php echo $this->webroot; ?>img/bindinglight.png"); }
+
+#header{ top: 0; margin-left: auto; position:fixed; width:100%; text-align:center; z-index: 900; opacity:.97;}
+#header_container {margin-left:auto; margin-right:auto; position:relative; width: 600px ; top:10px; opacity: 1; }
+
+h3{
+	border-bottom: 1px solid;
+}
+
+/* Body CSS*/
+#body_container
+{ position:relative; left: ; right: 0; bottom: 0; top: 200px; margin-left:auto; margin-right:auto; width: 1024px; border-left:2px solid; border-right:2px solid; padding-top: 30px; padding-bottom: 30px ;padding-left: 10px; padding-right: 10px;}
+ 
+#potrait
+{
+	position:relative;
+	width:40px;
+	height:32px;
+	margin-bottom: 13px;
+	opacity: 1;
+}
+
+.divider{
+	border-bottom: 3px solid;
+	width: 80%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	
+}
+
+.row {
+	width:300px;
+}
+.nav-wrapper{
+	position: absolute; 	
+
+}
+
+#footer{
+	margin-top:50%;
+	border-top: 5px solid;
+	color: #222;
+	text-shadow: 0px 2px 3px #555;
+	text-align: center;
+}
+
+/* Thumbnail styles end*/
+.light-button-container {
+  visibility:hidden;
+  z-index: 9999;
+	
+}
+

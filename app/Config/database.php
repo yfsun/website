@@ -65,7 +65,7 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
 		'login' => 'yifeisun',
 		'password' => 'likewind',
-		'database' => 'web',
+		'database' => '1128678_yifeisun',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);

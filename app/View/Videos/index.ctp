@@ -1,9 +1,3 @@
-<div class="light-button-container">
-	<img src="<?php echo $this->webroot; ?>img/bulb.png" id="bulb"></img>
-	<div class="slider-frame">
-		<span class="light-button">ON</span>
-	</div>
-</div>
 
 
 <div id="cinema">
@@ -17,9 +11,7 @@
 	<div id="prev">
     	<img src="<?php echo $this->webroot; ?>img/leftArrow.png" alt="" />
 	</div>
-	
-	    <a href="#" id="next"><img src="<?php echo $this->webroot; ?>img/rightArrow.png" alt="" /></a>
-	
+    <a href="#" id="next"><img src="<?php echo $this->webroot; ?>img/rightArrow.png" alt="" /></a>
 	
 	<div id="gallery-wrap">
 		<ul class="thumbnails">
@@ -82,23 +74,22 @@ box-shadow: 0px 0px 13px #000000;
 }
 
 
-
-
-
-
 /* Thumbnail styles end*/
 .light-button-container {
   position: fixed;
-  margin-left: 0px;
-  margin-top: 200px;
+  margin-left: 30px;
+  margin-top: 30px;
+  visibility:visible;
+  z-index: 9999;
 	
 }
+
 .slider-frame {
   position: relative;
   display: block;
   margin: 0 auto;
-  width: 84px;
-  height: 27px;
+  width: 42px;
+  height: 20px;
   background-color: rgb(246, 249, 251);
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -108,8 +99,8 @@ box-shadow: 0px 0px 13px #000000;
 }
 .light-button {
   display: block;
-  width: 43px;
-  height: 27px;
+  width: 20px;
+  height: 20px;
   line-height: 27px;
   background: #EDF2F7;
   -moz-border-radius: 4px;
@@ -119,7 +110,7 @@ box-shadow: 0px 0px 13px #000000;
   transition: all 0.25s ease-in-out;
   color: #000;
   font-family:sans-serif;
-  font-size:11px;
+  font-size:9px;
   font-weight:bold;
   text-align: center;
   cursor: pointer;
@@ -128,7 +119,7 @@ box-shadow: 0px 0px 13px #000000;
   box-shadow: inset 0px 0px 4px 0 rgba(0, 0, 0, 0.25);
 }
 .light-button.off {
-  margin-left: 40px;
+  margin-left: 20px;
   background: #EDF2F7;
 }
 
@@ -147,13 +138,11 @@ body {
 }
 
 #shadow {background-color:black; position:absolute; left:0; top:160px; right: 0; bottom: -300px;opacity:0.1; z-index:150}
-.light-button-container  {position: fixed; left: 100px; top: 100px; z-index: 200; }
-
 #cinema {position:relative; width: 640px; height: 390px; border: 10px solid; margin:auto}
 #cinema iframe {width: 640: height: 390;margin:auto}
 
 
-#bulb {margin-bottom: 10px;}
+#bulb {margin-bottom: 10px; width: 40px; height: 40px}
 
 </style>
 <script src="https://www.youtube.com/iframe_api"></script>
@@ -214,6 +203,8 @@ function stopVideo() {
 
 // Set shadow height  
 $(document).ready(function(){
+	// Add Light button
+	if ($('.light-button-container')) $('.light-button-container').show();
 	// Handle Light effect
 	$("#shadow").hide();
 	$("#shadow").click(function(event) {
