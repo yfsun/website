@@ -86,7 +86,7 @@ text-align: center;
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-37545937-1']);
+  _gaq.push(['_setAccount', 'UA-37545937-2']);
   _gaq.push(['_setDomainName', 'yifeisun.com']);
   _gaq.push(['_trackPageview']);
 
@@ -144,6 +144,7 @@ text-align: center;
 			</div>
 		</div>
 	</div>
+	
 	
 	<div id="body_container">
 		<?php 
