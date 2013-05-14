@@ -65,14 +65,7 @@
 				<div class="navbar-inner">
 					<div class="container">	
 						<a class="brand" href="#">
-							<table><tr>
-							<td>
-								<div id="potrait">
-									<?php echo $this->Html->image('potrait.png', array('alt' => ''));  ?>
-								</div>						
-							</td>
-							<td>YiFei Sun</td>
-							</tr></table>
+							YiFei Sun
 						</a>
 						<ul class="nav">
 							<?php

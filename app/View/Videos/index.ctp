@@ -1,13 +1,8 @@
-
-
 <div id="cinema">
 	<div id="player">
 	</div>	
 </div>
-
-
 <div id="thumbnail-wrap">
-
 	<div id="prev">
     	<img src="<?php echo $this->webroot; ?>img/leftArrow.png" alt="" />
 	</div>
@@ -18,7 +13,7 @@
 		<?php foreach ($videos as $video): ?>
 		<li class="span4">
 			<a onclick="loadVideo('<?php echo $video['Video']['vidid'] ?>')" class="thumbnail">
-				<img src="http://img.youtube.com/vi/<?php echo $video['Video']['vidid'] ?>/0.jpg" width= "400 	" height ="100"  />
+				<img src="http://img.youtube.com/vi/<?php echo $video['Video']['vidid'] ?>/0.jpg" width= "400" height ="100"  />
 			</a>
 			<h3><?php echo $video['Video']['name']; ?></h3>
 			<p><?php echo $video['Video']['description']; ?></p>
@@ -33,7 +28,7 @@
 <style>
 /* Thumbnail styles start*/
 
-#thumbnail-wrap{height: 400px;  border: 1px solid; margin-top: 10px;
+#thumbnail-wrap{height: 300px;  border: 1px solid; margin-top: 10px;
 -moz-border-radius: 22px;
 -webkit-border-radius: 22px;
 border-radius: 22px;
@@ -42,15 +37,19 @@ border-radius: 22px;
 -webkit-box-shadow: 0px 0px 13px #000000;
 box-shadow: 0px 0px 13px #000000;
 /*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
-
 }
-
-
-
 #gallery-wrap{margin: 0 auto; overflow: hidden; width: 800px; position: relative}
- 
 .thumbnails {position: relative;}
 
+#gallery-wrap ul li a {
+	width: 240px;
+	height: 150px;
+}
+
+#gallery-wrap ul li a img{
+	width: 240px;
+	height: 150px;
+}
 
 #prev,#next {position: relative; float: left; width: 100px; height: 100%; margin: auto}
 #next{float: right}	
@@ -232,6 +231,15 @@ $(document).ready(function(){
         	leftMargin += imageWidth;
         	if (leftMargin > 0) leftMargin = 0;            	
             jQuery(".thumbnails").animate({left :leftMargin  + "px"});
+            //Show other button
+            if (jQuery("#next").css('display') == 'none')
+            {
+            	jQuery("#next").show();
+            }
+        }
+        else
+        {
+        	jQuery("#prev").hide();
         }
         return false;
     });
@@ -242,7 +250,16 @@ $(document).ready(function(){
         	leftMargin -= imageWidth;
         	if (leftMargin < stopPosition) leftMargin = stopPosition;
             jQuery(".thumbnails").animate({left : leftMargin + "px"});
+            if (jQuery("#prev").css('display') == 'none')
+            {
+            	jQuery("#prev").show();
+            }
         }
+        else
+        {
+        	jQuery("#next img").hide();
+        }
+        
         return false;
     });
 	
@@ -320,6 +337,5 @@ function lightOff(){
 	$(".light-button").addClass('off').html('OFF');
 	window.light = "off";		
 }
-
 	
 </script>
